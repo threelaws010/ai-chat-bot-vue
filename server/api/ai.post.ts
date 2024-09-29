@@ -21,7 +21,7 @@ export default defineEventHandler(async (event) => {
         apiKey: process.env.OPENAI_API_KEY
     })
 
-    console.log('openai', openai);
+    //gconsole.log('openai', openai);
 
     async function askOpenAI() {
         const response = await openai.chat.completions.create({

@@ -58,7 +58,7 @@ watch(
       <header
         class="dark:bg-gray-900 bg-gray-200 px-4 flex justify-between items-center"
       >
-        Customer Support Chat
+        Caregiver Companion
         <button class="p-4 pr-0" @click="open = false">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -79,13 +79,13 @@ watch(
       <!-- Messages -->
       <div class="messages p-4 overflow-y-scroll max-h-[80vh]" ref="messageBox">
         <div v-if="!messages.length" class="text-center w-[350px] m-auto">
-          <strong class="text-lg">Chat with Botman!</strong>
+          <strong class="text-lg">Chat with Caregiver Cpmpanion</strong>
           <p>Our A.I. powered assistant</p>
           <strong class="block mt-10">Go ahead and ask us something:</strong>
           <ul class="list-inside list-disc text-left">
-            <li>What is social media post generator?</li>
-            <li>How can I get human support?</li>
-            <li>How was this tool built?</li>
+            <li>Get Personlized feedback</li>
+            <li>Tips and suggestions</li>
+            <li>A place to confidentially vent</li>
           </ul>
         </div>
         <ChatBubble
